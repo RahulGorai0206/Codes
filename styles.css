@@ -16,6 +16,7 @@
     font-size: 32px;
     color: #fff;
     padding: 10px 10px 10px 60px;
+    background-color: rgb(4, 3, 49);
 }
 .nav > ul {
     padding: 30px;
@@ -24,12 +25,14 @@
     list-style:  none;
     left: -100%;
     transition: 1s;
+    background-color: rgb(4, 3, 49);
   }
 .nav > ul a{
     text-decoration: none;
     color:rgb(255, 255, 255);
     transition:color 0.5s;
     padding: 15px;
+    background-color: rgb(4, 3, 49);
 }
 .nav > ul >li > a:hover {
     color: rgb(255, 33, 133);
@@ -54,6 +57,129 @@
     color: rgb(255, 33, 133);
     transition: 0.5s;
 }
+.home{
+    margin: 0px 0px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home .home-txt>h1{
+    padding: 10px;
+    display: block;
+}
+.home .home-pic > img{
+    height: 500px;
+    padding: 50px 50px 0px 0px;
+}
+#home-txt-top{
+    font-size: 50px;
+    font-weight: 300;
+}
+#home-txt-mid{
+    font-size: 70px;
+}
+.home-txt>p{
+    color: rgb(117, 117, 117);
+}
+#mname{
+    color: rgb(27, 153, 249);
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background-image: linear-gradient(to right,rgb(249, 232, 248) , rgb(255, 255, 255));
+}
+.home-btn{
+    display: block;
+    padding: 0px 0px 0px 50px;
+}
+.home-btn>button{
+    padding: 30px;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 83, 160);
+    color: rgb(238, 238, 238);
+    font-weight: 700;
+    transition: 0.3s;
+    border-color: transparent;
+}
+.home-btn>button:hover{
+    background: white;
+    color: rgb(0, 0, 0);
+    border-color: rgb(95, 91, 91);
+    transition: 0.3s;
+}
+.other-sec{
+    margin: 100px;
+    padding: 30px;
+    background-color: rgb(245, 244, 245);
+    border-radius: 40px;
+}
+.about,.skills,.projects,.connect{
+    background-color: rgb(236, 230, 231);
+    margin: 10px;
+    padding: 55px;
+    border-radius: 30px;
+    display: block;
+    align-items: center;
+}
+.about>p{
+    font-size: 20px;
+}
+.about>p>a{
+    text-decoration: none;
+}
+.about>h1{
+    text-align: center;
+    padding: 20px;
+}
+.skills>h1{
+    text-align: center;
+    padding: 20px;
+}
+.connect>h1{
+    text-align: center;
+    padding: 20px;
+}
+.projects>h1{
+    text-align: center;
+    padding: 20px;
+}
+.skills-main{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skills-tab>img{
+    height: 70px;
+}
+.skills-tab{
+    text-align: center;
+    margin: 20px;
+    width: 25%;
+}
+.skills-tab>p{
+    font-size: 15px;
+}
+.skills-tab>h1{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+.s-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.s-links >a> img{
+    height: 50px;
+}
+
+
+
+
+
+
 @media (max-width: 850px) {
     .nav > ul{
         position: fixed;
@@ -70,5 +196,20 @@
     }
 .menu-btn{
     display: flex;
+}
+.home{
+    margin: 0px 0px 0px 50px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+.home .home-pic > img{
+    height: 350px;
+    padding: 50px 0px 50px 0px;
+}
+.home .home-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 }
