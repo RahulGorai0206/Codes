@@ -139,6 +139,10 @@ body{
     text-align: center;
     padding: 20px;
 }
+.projects>h1{
+    text-align: center;
+    padding: 20px;
+}
 .connect>h1{
     text-align: center;
     padding: 20px;
@@ -201,7 +205,7 @@ body{
 .home{
     margin: 0px 0px 0px 50px;
     display: block;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .home .home-pic > img{
@@ -247,6 +251,14 @@ body{
 }
 .home .home-pic > img{
     height: 280px;
-    padding: 0px 0px 50px 0px;
+    padding: 20px 0px 50px 0px;
+}
+.nav{
+    min-height: 10vh;
+}
+.home-btn{
+    display: block;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
 }
 }
