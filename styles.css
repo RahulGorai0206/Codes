@@ -38,7 +38,7 @@ html {
     background-color: rgb(4, 3, 49);
 }
 .nav > ul >li > a:hover {
-    color: rgb(255, 33, 133);
+    color: rgb(255, 140, 146);
     transition: 0.5s;
 }
 .menu-btn{
