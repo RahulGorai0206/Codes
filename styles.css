@@ -80,6 +80,7 @@
 }
 .home-txt>p{
     color: rgb(117, 117, 117);
+    width: 90%;
 }
 #mname{
     color: rgb(27, 153, 249);
@@ -122,6 +123,7 @@ body{
     border-radius: 30px;
     display: block;
     align-items: center;
+    margin-bottom: 50px;
 }
 .about>p{
     font-size: 20px;
@@ -174,12 +176,11 @@ body{
 .s-links >a> img{
     height: 50px;
 }
-
-
-
-
-
-
+.bottom{
+    text-align: center;
+    color: rgb(255, 140, 146);
+    padding: 40px;
+}
 @media (max-width: 850px) {
     .nav > ul{
         position: fixed;
@@ -209,7 +210,43 @@ body{
 }
 .home .home-pic{
     display: flex;
-    justify-content: center;
     align-items: center;
+}
+.other-sec{
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(245, 244, 245);
+    border-radius: 40px;
+}
+.about,.skills,.projects,.connect{
+    background-color: rgb(236, 230, 231);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    display: block;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.skills-main{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skills-tab{
+    text-align: center;
+    margin: 20px;
+    width: 100%;
+}
+.s-links >a> img{
+    height: 30px;
+}
+.home-btn{
+    display: block;
+    padding: 0px 0px 50px 50px;
+}
+.home .home-pic > img{
+    height: 280px;
+    padding: 0px 0px 50px 0px;
 }
 }
