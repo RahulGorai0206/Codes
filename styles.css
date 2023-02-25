@@ -10,8 +10,6 @@ html {
 .nav{
     background-color: rgb(4, 3, 49);
     min-height: 15vh;
-    position: sticky;
-    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -260,6 +258,8 @@ body{
 }
 .nav{
     min-height: 10vh;
+    position: sticky;
+    top: 0;
 }
 .home-btn{
     display: block;
