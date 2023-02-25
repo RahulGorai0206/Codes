@@ -206,18 +206,19 @@ body{
     display: flex;
 }
 .home{
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 0px;
     display: block;
     justify-content: center;
     align-items: center;
 }
 .home .home-pic > img{
     height: 350px;
-    padding: 50px 0px 50px 0px;
+    padding: 50px 0px 0px 0px;
 }
 .home .home-pic{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .other-sec{
     margin: 10px;
@@ -265,5 +266,10 @@ body{
     display: block;
     padding: 0px 0px 0px 0px;
     text-align: center;
+}
+.home-txt>p{
+    color: rgb(117, 117, 117);
+    width: 90%;
+    padding-left: 10px;
 }
 }
