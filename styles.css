@@ -96,7 +96,7 @@ body{
     display: block;
     padding: 0px 0px 0px 50px;
 }
-.home-btn>button{
+.home-btn>a>button{
     padding: 30px;
     border-radius: 50px;
     font-size: 20px;
@@ -107,7 +107,7 @@ body{
     transition: 0.3s;
     border-color: transparent;
 }
-.home-btn>button:hover{
+.home-btn>a>button:hover{
     background: white;
     color: rgb(0, 0, 0);
     border-color: rgb(95, 91, 91);
