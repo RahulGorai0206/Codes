@@ -188,10 +188,25 @@ body{
 .s-links >a> img{
     height: 50px;
 }
+.s-links >a>button> img{
+    height: 50px;
+    cursor: pointer;
+}
+.s-links >a>button{
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+.s-links >a>button:hover{
+    
+}
 .bottom{
     text-align: center;
     color: rgb(255, 140, 146);
     padding: 40px;
+}
+#mymail{
+    display: none;
 }
 @media (max-width: 850px) {
     .nav > ul{
@@ -252,6 +267,9 @@ body{
     width: 100%;
 }
 .s-links >a> img{
+    height: 30px;
+}
+.s-links >a>button> img{
     height: 30px;
 }
 .home-btn{

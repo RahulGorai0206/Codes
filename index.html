@@ -17,6 +17,15 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
         
 </head>
+<script>
+    function copyMail() {
+      var copyText = document.getElementById("mymail");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+      alert("Copied the text: " + copyText.value);
+    }
+    </script>
 <body>
     <div class="nav">
         <div class="nav-title">Portfolio</div>
@@ -101,11 +110,12 @@
                 <a href="https://www.linkedin.com/in/purnima-mahato-524808218/"> <img src="images/linkedin.png" alt=""> </a>
                 <a href="https://github.com/PurnimaMahato"> <img src="images/github.png" alt=""> </a>
                 <a href="https://telegram.me/PurnimaMahato"> <img src="images/telegram.png" alt=""> </a>
-                <a href="mailto: abc@example.com"> <img src="images/email.png" alt=""> </a>
+                <a href="mailto: purnimamahato782@gmail.com"><button onclick="copyMail()"> <img src="images/email.png" alt=" Cick to copy"> </button></a>
             </div>
         </div>
     </div>
     <div class="bottom">
+        <input type="text" value="purnimamahato782@gmail.com" id="mymail">
         Made With ❤ By Me
     </div>
 </body>
