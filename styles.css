@@ -102,10 +102,11 @@ body{
     font-size: 20px;
     cursor: pointer;
     background-color: rgb(255, 83, 160);
-    color: rgb(238, 238, 238);
+    color: rgb(255, 255, 255);
     font-weight: 700;
     transition: 0.3s;
     border-color: transparent;
+    box-shadow: rgb(0 0 0 / 16%) 0px 0px 3px 3px;
 }
 .home-btn>a>button:hover{
     background: white;
@@ -285,9 +286,9 @@ body{
     position: sticky;
     top: 0;
 }
-.home-btn{
+.home-btn {
     display: block;
-    padding: 0px 0px 0px 0px;
+    padding: 50px 0px 100px 0px;
     text-align: center;
 }
 .home-txt>p{
